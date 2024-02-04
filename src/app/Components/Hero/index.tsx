@@ -1,6 +1,6 @@
 // components/Hero.tsx
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const Hero: React.FC = () => {
   return (
