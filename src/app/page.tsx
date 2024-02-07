@@ -12,6 +12,7 @@ export default function Home() {
 <TrainSection  />
 <HowItWorks  />
 <StayAhead  />
+<HowItWorks />
   </main>
  
 
