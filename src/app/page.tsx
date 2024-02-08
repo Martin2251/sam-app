@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import TrainSection from "./Components/Train";
 import HowItWorks from "./Components/HowItWorks";
 import StayAhead from "./Components/StayAhead";
+import SeeUsLive from "./Components/SeeUsLive";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 <HowItWorks  />
 <StayAhead  />
 <HowItWorks />
+<SeeUsLive  />
   </main>
  
 

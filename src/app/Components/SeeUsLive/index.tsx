@@ -1,4 +1,5 @@
 import React from 'react'
+import './SeeUsLive.scss';
 
 const SeeUsLive = () => {
   return (
