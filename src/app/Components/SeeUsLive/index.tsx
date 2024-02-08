@@ -3,7 +3,9 @@ import React from 'react'
 const SeeUsLive = () => {
   return (
     <main>
-        <h1 className="">See Us Live</h1>
+        <header>
+        <h1 className="text-2xl">See Us Live</h1>
+        </header>
         <p>On Instagram</p>
     </main>
   )
