@@ -18,6 +18,7 @@ const HowItWorks = () => {
         <p>Set Weekly avaliabity</p>
         <BsSmartwatch />
         <p className='wearable'>Connect your wearable device</p>
+        
         </section>
 
     </main>
