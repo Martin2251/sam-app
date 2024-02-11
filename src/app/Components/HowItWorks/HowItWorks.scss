@@ -1,3 +1,31 @@
 .wearable{
     color:red
 }
+
+.how-it-works{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-div{
+    display: inline-block;
+    width: auto;
+    max-width: 130px;
+    padding: 10px;
+}
+
+@media (min-width: 1025px){
+
+.how-it-works{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+}
