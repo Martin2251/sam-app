@@ -3,6 +3,7 @@ import { BsCardChecklist, BsSmartwatch } from 'react-icons/bs'
 import { GiArcheryTarget } from 'react-icons/gi'
 import { IoCalendarNumberOutline } from 'react-icons/io5'
 import './HowItWorks.scss';
+import { HiOutlineDotsHorizontal } from 'react-icons/hi';
 
 const HowItWorks = () => {
   return (
@@ -16,6 +17,7 @@ const HowItWorks = () => {
         <GiArcheryTarget />
         <p>Set your goal</p>
         </div>
+        <div className='dots'><HiOutlineDotsHorizontal /></div>
         <IoCalendarNumberOutline />
         <p>Set Weekly avaliabity</p>
         <BsSmartwatch />
