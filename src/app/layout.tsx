@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-        <main className="mx-auto max-w-[2160px]">
+        <main className="">
  
         {children}
         <Footer  />
