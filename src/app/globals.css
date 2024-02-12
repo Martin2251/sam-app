@@ -24,6 +24,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+
+
+    
+}
+
+.container{
+  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 @layer utilities {
