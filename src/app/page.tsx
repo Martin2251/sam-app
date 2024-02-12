@@ -5,6 +5,7 @@ import TrainSection from "./Components/Train";
 import HowItWorks from "./Components/HowItWorks";
 import StayAhead from "./Components/StayAhead";
 import SeeUsLive from "./Components/SeeUsLive";
+import HumanTouch from "./Components/HumanTouch";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
 <StayAhead  />
 <HowItWorks />
 <SeeUsLive  />
+<HumanTouch  />
   </main>
  
 
