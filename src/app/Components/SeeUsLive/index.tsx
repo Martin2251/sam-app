@@ -3,7 +3,7 @@ import './SeeUsLive.scss';
 
 const SeeUsLive = () => {
   return (
-    <main>
+    <main className='bg-slate-300 py-3'>
         <header>
         <h1 className="text-2xl">See Us Live</h1>
         </header>
