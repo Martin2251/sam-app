@@ -10,6 +10,7 @@ import HumanTouch from "./Components/HumanTouch";
 export default function Home() {
   return (
 <main>
+
 <Hero  />
 <TrainSection  />
 <HowItWorks  />
@@ -17,6 +18,7 @@ export default function Home() {
 <HowItWorks />
 <SeeUsLive  />
 <HumanTouch  />
+<h2><Link href="/about">About </Link> </h2>
   </main>
  
 
