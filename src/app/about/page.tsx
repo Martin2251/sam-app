@@ -1,13 +1,11 @@
-import VisionComponent from '@/app/Components/VisionComponent'
 import React from 'react'
 
-const About = () => {
+const AboutPage = () => {
   return (
-   <main>
-    <h1 className='text-center'>About Page</h1>
-    <VisionComponent  />
-   </main>
+    <div>
+      <h1>About</h1>
+    </div>
   )
 }
 
-export default About
+export default AboutPage

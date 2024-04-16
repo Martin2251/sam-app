@@ -36,6 +36,12 @@ body {
   padding-right: 30px;
 }
 
+h1{
+  font-weight: 800;
+  font-size: 34px ;
+  line-height: 34px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
