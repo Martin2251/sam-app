@@ -8,6 +8,10 @@ const Navbar: React.FC = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="bg-gray-800 p-4">
       <div className="max-w-7xl mx-auto px-4">
@@ -54,19 +58,27 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden mt-2 px-4">
-          <a href="#" className="block text-white py-2">
-            Home
-          </a>
-          <a href="#" className="block text-white py-2">
-            About
-          </a>
-          <a href="#" className="block text-white py-2">
-            Services
-          </a>
-          <a href="#" className="block text-white py-2">
-            Contact
-          </a>
+        <div className="md:hidden fixed inset-0 bg-gray-800 z-50">
+          <div className="flex flex-col items-center justify-center h-full">
+            <a href="#" className="text-white py-2">
+              Home
+            </a>
+            <a href="#" className="text-white py-2">
+              About
+            </a>
+            <a href="#" className="text-white py-2">
+              Services
+            </a>
+            <a href="#" className="text-white py-2">
+              Contact
+            </a>
+            <button
+              onClick={closeMenu}
+              className="text-white mt-4 px-4 py-2 rounded-lg border border-white"
+            >
+              Close
+            </button>
+          </div>
         </div>
       )}
     </nav>
