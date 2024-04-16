@@ -1,0 +1,22 @@
+/* Footer.scss */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .footer__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__item {
+    margin: 0 1rem;
+  }
+  
+  .footer__copyright {
+    font-size: 0.8rem;
+  }
+  
