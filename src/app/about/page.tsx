@@ -1,10 +1,12 @@
 import React from 'react'
 import './About.scss';
+import Hero from '../Components/AboutPage/AboutHero/Hero';
 
 
 const AboutPage = () => {
   return (
     <>
+    <Hero  />
     <header className='heading'>
       <h1>Abou !!!!t</h1>
     </header>
