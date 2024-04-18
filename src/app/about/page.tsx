@@ -5,7 +5,7 @@ import Hero from '../Components/AboutPage/AboutHero/Hero';
 
 const AboutPage = () => {
   return (
-    <>
+    <div  className="about-page">
     <Hero  />
     <header className='heading'>
       <h1>Abou !!!!t</h1>
@@ -18,7 +18,8 @@ const AboutPage = () => {
       </div>
     </section>
     </main>
-    </>
+    </div>
+   
   )
 }
 
