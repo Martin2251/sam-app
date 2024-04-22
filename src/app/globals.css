@@ -42,6 +42,9 @@ h1{
   line-height: 34px;
   color:black;
 }
+p{
+  margin-bottom: 10px;
+}
 
 @layer utilities {
   .text-balance {
