@@ -55,8 +55,10 @@ const Coaches = () => {
                 <div className="team-member-img">
                   <img alt="avatar" src={coach.imgSrc} />
                 </div>
+                <section className='text-center'>
                 <h3>{coach.name}</h3>
                 <p>{coach.position}</p>
+                </section>
               </div>
             </div>
           ))}
