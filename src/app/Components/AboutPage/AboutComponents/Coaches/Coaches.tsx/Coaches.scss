@@ -4,3 +4,27 @@
     margin-bottom: 88px;
     position: relative;
 }
+
+.col-12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member-collection{
+    padding: 107px 0;
+    background: #F1F4F7;
+}
+
+.team-member-box{
+    width: 20%;
+    padding: 0px 30px;
+    margin-bottom: 88px;
+    position: relative;
+}
+
+.team-member-img{
+    margin:0 auto 25px;
+    width:221px;
+    height:221px;
+}
