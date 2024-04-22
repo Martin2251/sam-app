@@ -70,10 +70,10 @@ const Navbar: React.FC = () => {
             <a href="#" className="text-white py-2">
               Services
             </a>
-            <Link href="/contact">
-            <a href="#" className="text-white py-2">
+            <Link href="/contact"
+             className="text-white py-2">
               Contact
-            </a>
+            
             </Link>
             <button
               onClick={closeMenu}
