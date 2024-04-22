@@ -40,6 +40,10 @@ h1{
   font-weight: 800;
   font-size: 34px ;
   line-height: 34px;
+  color:black;
+}
+p{
+  margin-bottom: 10px;
 }
 
 @layer utilities {

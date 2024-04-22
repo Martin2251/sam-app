@@ -1,11 +1,16 @@
 "use client"
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
   };
 
   return (
@@ -54,19 +59,29 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden mt-2 px-4">
-          <a href="#" className="block text-white py-2">
-            Home
-          </a>
-          <a href="#" className="block text-white py-2">
-            About
-          </a>
-          <a href="#" className="block text-white py-2">
-            Services
-          </a>
-          <a href="#" className="block text-white py-2">
-            Contact
-          </a>
+        <div className="md:hidden fixed inset-0 bg-gray-800 z-50">
+          <div className="flex flex-col items-center justify-center h-full">
+            <a href="#" className="text-white py-2">
+              Home
+            </a>
+            <a href="#" className="text-white py-2">
+              About
+            </a>
+            <a href="#" className="text-white py-2">
+              Services
+            </a>
+            <Link href="/contact"
+             className="text-white py-2">
+              Contact
+            
+            </Link>
+            <button
+              onClick={closeMenu}
+              className="text-white mt-4 px-4 py-2 rounded-lg border border-white"
+            >
+              Close
+            </button>
+          </div>
         </div>
       )}
     </nav>

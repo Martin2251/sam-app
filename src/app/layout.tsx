@@ -20,13 +20,15 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
+      <div className="max-w-screen-2xl">
         <Navbar  />
+
         <main className="">
  
         {children}
         <Footer  />
         </main>
-        
+      </div>
         </body>
     </html>
   );
