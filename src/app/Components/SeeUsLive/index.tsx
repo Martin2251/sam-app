@@ -5,9 +5,9 @@ const SeeUsLive = () => {
   return (
     <main className='bg-slate-300 py-3'>
         <header>
-        <h1 className="text-2xl">See Us Live</h1>
+        <h3 className='black-500'>See Us Live</h3>
         </header>
-        <p>On Instagram</p>
+        <span><p>On Instagram</p></span>
     </main>
   )
 }
