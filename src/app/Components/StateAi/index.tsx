@@ -4,14 +4,19 @@ import { Row,Col } from 'react-bootstrap'
 
 const StateOfArtAi = () => {
   return (
-    <main>
+    <main className='container'>
+        
         <h3>State of Art Ai</h3>
         <Row className='row'>
         <Col md={12} lg={6}>
-        <p>hi</p>
+        <section>
+        <p><strong>Transfer Learning and Explainability in Deep Learning Models: </strong></p>
+        </section>
         </Col>
         <Col md={12} lg={6}>
-        <p>hi 2</p>
+       <section>
+            <p>hi</p>
+       </section>
         </Col>
 
         </Row>
