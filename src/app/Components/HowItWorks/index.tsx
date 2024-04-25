@@ -9,7 +9,7 @@ const HowItWorks = () => {
   return (
     <main className='bg-slate-200'>
         <header>
-            <h1 className="text-3xl text-center">How it works</h1>
+            <h3>How it works</h3>
         </header>
         <p className='text-white text-center'>Optimise your training</p>
         <section className='how-it-works'>
