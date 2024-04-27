@@ -10,7 +10,7 @@ import StateOfArtAi from "./Components/StateAi";
 
 export default function Home() {
   return (
-<main>
+<main className="mx-auto">
 
 <Hero  />
 <TrainSection  />

@@ -7,7 +7,7 @@ import { HiOutlineDotsHorizontal } from 'react-icons/hi';
 
 const HowItWorks = () => {
   return (
-    <main className='bg-slate-200'>
+    <main className='bg-slate-200 container'>
         <header>
             <h3>How it works</h3>
         </header>
