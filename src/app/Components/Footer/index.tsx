@@ -2,20 +2,30 @@
 import React from 'react';
 import Link from 'next/link';
 import './Footer.scss';
+import { Row } from 'react-bootstrap';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer">
-      <div className="container mx-auto text-center">
-        <ul className="footer__list">
-          <li className="footer__item">hi</li>
-          <Link href="/contact">
-          <li className="footer__item">Contact</li>
-          </Link>
-        </ul>
-        <p className="footer__copyright">&copy; {new Date().getFullYear()} Sam Fitness App</p>
-      </div>
-    </footer>
+ 
+      <main className="container">
+        <Row>
+          <div className="content">
+            <ul className="footerNav">
+              <li>About</li>
+              <li>Contact</li>
+              <li>Privacy</li>
+            </ul>
+            <ul className='socialLink'>
+              <li>Facebook</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+          <p className="footer__copyright">&copy; {new Date().getFullYear()} Sam Fitness App</p>
+        </Row>
+      
+
+   
+    </main>
   );
 };
 
