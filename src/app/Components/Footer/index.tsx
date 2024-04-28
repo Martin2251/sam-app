@@ -15,11 +15,15 @@ const Footer: React.FC = () => {
               <li>Contact</li>
               <li>Privacy</li>
             </ul>
+            <ul className='socialLink'>
+              <li>Facebook</li>
+              <li>Twitter</li>
+            </ul>
           </div>
-
+          <p className="footer__copyright">&copy; {new Date().getFullYear()} Sam Fitness App</p>
         </Row>
       
-        <p className="footer__copyright">&copy; {new Date().getFullYear()} Sam Fitness App</p>
+
    
     </main>
   );
