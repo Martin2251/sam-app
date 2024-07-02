@@ -10,12 +10,14 @@ const StateOfArtAi = () => {
         <Row className='row'>
         <Col md={12} lg={6}>
         <section>
-        <p><strong>Transfer Learning and Explainability in Deep Learning Models: </strong></p>
+       <p>image goes here </p>
         </section>
         </Col>
         <Col md={12} lg={6}>
        <section>
-            <p>hi</p>
+           <h3>State of the art AI </h3>
+           <span>meets sports science </span>
+           <p>using latest elements </p>
        </section>
         </Col>
 
